@@ -1,5 +1,11 @@
+import ProfileBuilder from "./ProfileBuilder";
+
 function App() {
-  return <>profile builder</>;
+  return (
+    <>
+      <ProfileBuilder />
+    </>
+  );
 }
 
 export default App;
