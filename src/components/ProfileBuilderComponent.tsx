@@ -1,5 +1,9 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import SignIn from "./pages/SignIn";
+
 const ProfileBuilderComponent = () => {
-  return <div>Profile builder</div>;
+  const router = createBrowserRouter([{ path: "/", element: <SignIn /> }]);
+  return <RouterProvider router={router} />;
 };
 
 export default ProfileBuilderComponent;
